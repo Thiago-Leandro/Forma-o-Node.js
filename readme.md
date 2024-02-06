@@ -19,4 +19,4 @@ nodemon .\index.js // para rodar a aplicação enquanto esta codando.
 ## ultilizar a senha da sua instalação 
 * Password: 1234
 
-teste
+teste/teste
