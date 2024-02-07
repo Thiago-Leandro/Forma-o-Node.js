@@ -14,9 +14,11 @@ npm install --save body-parser
 npm install --save ejs
 ~~~
 
-nodemon .\index.js // para rodar a aplicação enquanto esta codando.
+## Para rodar a aplicação enquanto esta codando.
+~~~
+nodemon index.js
+~~~
 
-## ultilizar a senha da sua instalação 
+## ultilizar a senha da sua instalação do banco de dados
+
 * Password: 1234
-
-teste/teste
