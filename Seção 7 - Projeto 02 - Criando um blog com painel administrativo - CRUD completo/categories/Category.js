@@ -12,3 +12,5 @@ const Category = connection.define('categories',{
 })
 
 module.exports = Category;
+
+77. Relacionamentos na nossa aplicação
