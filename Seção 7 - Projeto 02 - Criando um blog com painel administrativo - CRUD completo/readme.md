@@ -24,10 +24,20 @@ nodemon index.js
 
 ## 77. Relacionamentos na nossa aplicação
 
-  * Relacionamento Um para Um (1:1):
+  * Relacionamento Um para Um (1:1): ARTIGO > CATEGORIA
 
 Cada registro em uma tabela está relacionado a apenas um registro em outra tabela, e vice-versa. Este tipo de relacionamento é menos comum, pois geralmente é mais eficiente combinar as tabelas.
 
-  * Relacionamento Um para Muitos (1:N):
+  * Relacionamento Um para Muitos (1:N): CATEGORIA > ARTIGO
 
 Um registro em uma tabela está relacionado a vários registros em outra tabela, mas cada registro nesta segunda tabela está relacionado a apenas um registro na primeira tabela. Este é o tipo de relacionamento mais comum.
+
+hasMany - Uma categoria tem muitos artigos
+~~~
+Category.hasMany(Article);
+~~~
+
+belongsTo - Um Artigo pertence a uma categoria
+~~~
+Article.belongsTo(Category);
+~~~
