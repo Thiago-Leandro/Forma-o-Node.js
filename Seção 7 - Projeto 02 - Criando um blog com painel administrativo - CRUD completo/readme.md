@@ -41,3 +41,9 @@ belongsTo - Um Artigo pertence a uma categoria
 ~~~
 Article.belongsTo(Category);
 ~~~
+
+## 81. Cadastro de categorias e Slugify
+
+~~~ 
+npm install --save slugify
+~~~
