@@ -1,5 +1,11 @@
 ## instalando bibliotecas para inciar o projeto
 
+ * **npm:** O Node Package Manager (npm) é um gerenciador de pacotes para o ecossistema do Node.js. Ele permite instalar, compartilhar e gerenciar pacotes ou bibliotecas de código JavaScript para serem usados em projetos.
+
+ * **install:** É o comando usado para instalar pacotes ou bibliotecas do npm. Quando você executa npm install, o npm baixa e instala os pacotes especificados no seu projeto.
+
+ * **--save:** Esta opção foi usada em versões mais antigas do npm para indicar que a dependência deveria ser registrada no arquivo package.json do projeto. No npm 5 e versões posteriores, --save é o comportamento padrão e não é necessário especificá-lo explicitamente.
+
 ~~~ 
 npm init
 
@@ -44,6 +50,10 @@ Article.belongsTo(Category);
 
 ## 81. Cadastro de categorias e Slugify
 
+ * **slugify:** É o nome do pacote que você está instalando. O pacote slugify é uma ferramenta útil para converter strings em "slugs", que são segmentos de texto que geralmente são usados em URLs amigáveis para SEO. Um slug normalmente contém apenas caracteres alfanuméricos em minúsculas, bem como traços (-) para separar palavras.
+
 ~~~ 
 npm install --save slugify
 ~~~
+
+ * Ao executar *npm install --save slugify*, você estará instalando o pacote slugify no seu projeto Node.js e garantindo que ele seja listado como uma dependência no arquivo package.json. Isso permite que outras pessoas que trabalham no seu projeto ou que baixem seu projeto saibam quais pacotes são necessários para executá-lo.

@@ -24,10 +24,10 @@
                 <th>
                     <button class="btn btn-warning">Editar</button>
 
-                    <form method="POST" action="/categories/delete">
-                    <imput type="hidden" name="id" value="<%= category.id %>">
-                    <button class="btn btn-danger">Deletar</button>
-                </form>
+                    <form method="POST" action="/categories/delete" style="display: inline;">
+                        <input type="hidden" name="id" value="<%= category.id %>">
+                        <button class="btn btn-danger">Deletar</button>
+                    </form>
                 </th>
             </tr>
         <% }) %>
