@@ -1,4 +1,6 @@
-## instalando bibliotecas para inciar o projeto
+# Anotações praticas do projeto #02 
+
+## Instalando bibliotecas para inciar o projeto
 
  * **npm:** O Node Package Manager (npm) é um gerenciador de pacotes para o ecossistema do Node.js. Ele permite instalar, compartilhar e gerenciar pacotes ou bibliotecas de código JavaScript para serem usados em projetos.
 
