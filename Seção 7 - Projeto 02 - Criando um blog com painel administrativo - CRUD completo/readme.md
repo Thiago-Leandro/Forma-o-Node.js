@@ -59,3 +59,17 @@ npm install --save slugify
 ~~~
 
  * Ao executar *npm install --save slugify*, você estará instalando o pacote slugify no seu projeto Node.js e garantindo que ele seja listado como uma dependência no arquivo package.json. Isso permite que outras pessoas que trabalham no seu projeto ou que baixem seu projeto saibam quais pacotes são necessários para executá-lo.
+
+ ## 91. Configurando o TinyMCE
+
+  * O TinyMCE é um editor de texto rico em recursos que pode ser incorporado em aplicativos da web para fornecer uma experiência de edição de texto mais avançada. Ele oferece uma ampla variedade de recursos, incluindo formatação de texto, inserção de imagens, links, tabelas e muito mais.
+
+Para integrar o TinyMCE em sua aplicação web, você pode seguir estes passos básicos:
+
+*Download TinyMCE Community*
+
+https://www.tiny.cloud/get-tiny/self-hosted/
+
+Dentro da pasta public descopmpacta os arquivos e deixa *\public\tinymce*
+
+ ## proximo topic
