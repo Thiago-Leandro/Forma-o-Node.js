@@ -72,6 +72,10 @@ https://www.tiny.cloud/get-tiny/self-hosted/
 
 Dentro da pasta public descopmpacta os arquivos e deixa *\public\tinymce*
 
- ## 92. Traduzindo o TinyMCE
+ * Traduzindo o TinyMCE
+
+Faça o download da tradução
 
 https://www.tiny.cloud/get-tiny/language-packages/
+
+Dentro da pasta public descopmpacta os arquivos e descompacta o arquivo **'pt_BR'** no caminho *\public\tinymce\langs*
