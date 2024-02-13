@@ -72,4 +72,6 @@ https://www.tiny.cloud/get-tiny/self-hosted/
 
 Dentro da pasta public descopmpacta os arquivos e deixa *\public\tinymce*
 
- ## proximo topic
+ ## 92. Traduzindo o TinyMCE
+
+https://www.tiny.cloud/get-tiny/language-packages/
