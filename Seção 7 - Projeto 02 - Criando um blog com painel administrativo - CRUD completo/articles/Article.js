@@ -17,6 +17,6 @@ const Article = connection.define('articles',{
 })
 
 Category.hasMany(Article); // Uma categoria tem muitos artigos
-Article.belongsTo(Category); // Um Artigo pertence a uma categoria
+Article.belongsTo(Category, { foreignKey: 'categoryId' });
 
 module.exports = Article;
