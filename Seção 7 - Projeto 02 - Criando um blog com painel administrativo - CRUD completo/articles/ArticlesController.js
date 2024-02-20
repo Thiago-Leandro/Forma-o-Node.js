@@ -5,7 +5,7 @@ const Article = require("./Article");
 const slugify = require("slugify");
 
 router.get("/admin/articles", (req, res) => {
-    res.send("ROTA DE ARTIGO")
+    res.render("admin/articles/index");
 });
 
 router.get("/admin/articles/new", (req, res) => {
@@ -26,7 +26,8 @@ router.post("/articles/save", (req, res) => {
         categoryId: category
     }).then(() => {
         res.redirect("/admin/articles");
-    })
+    });
 });
+
 
 module.exports = router;
